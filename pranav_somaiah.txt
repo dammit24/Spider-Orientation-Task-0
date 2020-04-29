@@ -1,7 +1,13 @@
 COMMANDS USED:
 git clone         //to download an existing repo from a remote server onto local machine
 git checkout - b  //to create a new branch and checkout to this created branch
-touch
-git add
-git commit -m
-
+git checkout      // to checkout to another branch
+touch             //to create new empty files
+git add           // add files to staging environment
+git commit -m     //to commit changes to local repo along with commit msg
+git merge         //to merge branches and integrate lines of development
+git mv            //to rename file
+git remote add upstream //to add remote to original repo so as to sync with local repo
+git fetch upstream //fetch branches and commits from original repo
+git merge upstream/master //to sync fork's master branch with most recent changes in original repo without losing local changes
+git push origin //to push branch into forked remote repo
