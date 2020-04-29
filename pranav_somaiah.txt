@@ -11,3 +11,6 @@ git remote add upstream //to add remote to original repo so as to sync with loca
 git fetch upstream //fetch branches and commits from original repo
 git merge upstream/master //to sync fork's master branch with most recent changes in original repo without losing local changes
 git push origin //to push branch into forked remote repo
+
+*merge conflict since same line in answer.txt was edited in the two branches for answer and explanation.
+Resolved using vscode to accept both changes as well as hand editing to remove HEAD marks.
