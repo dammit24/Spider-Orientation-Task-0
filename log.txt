@@ -1,0 +1,7 @@
+COMMANDS USED:
+git clone         //to download an existing repo from a remote server onto local machine
+git checkout - b  //to create a new branch and checkout to this created branch
+touch
+git add
+git commit -m
+
